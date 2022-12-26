@@ -1,0 +1,58 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello"],
+         "responses": ["Hello, what should I do?", "Hi, Ask anything!", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can educate about smart waste management", "I can tell you the benefits of the smart waste management solution for solid waste", "I can show you the regular waste management system and its drawbacks"],
+         "context": [""]
+        },
+        {"tag": "waste_management",
+         "patterns": ["About the regular waste management system and its drawbacks", "Tell me about regular waste management", "Drawbacks in regular waste management" ],
+         "responses": ["Every household and commercial place in London deals with the rubbishes and wastes in their day-to-day life. Many people used to skip regular bins, garbage collection, and weekly waste removal to dispose of their wastes in a regular routine and this leads to the accumulation of wastes in a huge manner.\n More Info:  <a href=\"https://www.quickwasters.co.uk/blog/improper-waste-management/\">Visit Google</a>",
+         "A waste management system is the strategy an organization uses to dispose, reduce, reuse, and prevent waste. Possible waste disposal methods are recycling, composting, incineration, landfills, bioremediation, waste to energy, and waste minimization. \n More Info: <a href=\"https://safetyculture.com/topics/waste-management-system/\">Visit Google</a>"],
+         "context": [""]
+        },
+        {"tag": "smart_waste_management",
+         "patterns": ["What is smart waste management?", "Tell me about smart waste management", "About smart waste management", "Smart waste management"],
+         "responses": ["Do you know 2.1 billion tonnes of municipal solid waste is generated annually around the globe? Population growth and rapid urbanization lead to a huge increase in waste generation, so the traditional methods of waste collection have become inefficient and costly. The most efficient way this extraordinary amount of waste can be solved is through smart waste management with obsolete methods of waste collection. \n More Info:  <a href=\"https://evreka.co/blog/what-is-smart-waste-management/\">Visit Google</a>",
+         "Smart waste management solutions use sensors placed in waste receptacles to measure fill levels and to notify city collection services when bins are ready to be emptied. Over time, historical data collected by sensors can be used to identify fill patterns, optimize driver routes and schedules, and reduce operational costs. The cost of these sensors is steadily decreasing, making IoT waste bins more feasible to implement and more attractive to city leaders. \n More Info:  <a href=\"https://www.iotforall.com/smart-waste-management\">Visit Google</a>"],
+         "context": [""]
+        },
+        {"tag": "existing_smart_waste_management",
+         "patterns": ["I want to search for existing smart waste management", "About existing smart waste management", "Tell me about existing smart waste management", "Show other existing smart waste management"],
+         "responses": ["Sensoneo is a smart waste management solution provider that produces two types of ultrasonic sensors that are able to monitor the fill level for waste bins of various types and sizes. Their platform helps cities and businesses optimize waste collection routes by factoring in the fill levels of bins, the size of collection vehicle fleets, and the distance to landfills. They claim that their solution can reduce waste collection costs by at least 40 percent and lower carbon emissions in cities up to 60 percent. \n More Info:  <a href=\"https://www.iotforall.com/smart-waste-management\">Visit Google</a>"
+         , "The first step toward creating efficient, sustainable waste management systems is learning why our current ones aren’t working. The following technologies combine IoT data analytics with modern solutions to help identify challenges and improve as they go. \n More Info:  <a href=\"https://www.bigrentz.com/blog/smart-waste-management\">Visit Google</a>"],
+         "context": [""]
+        },
+        {"tag": "garbage_types",
+         "patterns": ["What are the types of garbage?", "About garbage types", "Tell me about garbage types"],
+         "responses": ["Garbage is the most common type of waste. It's not recyclable, compostable, or hazardous.\n\n\nGarbage is any material that you do not want to get rid of in your home or workplace.\n\nFor example, if you throw away food scraps in your kitchen trash can and it ends up on the ground outside because there isn't enough space for them inside the house, then this would be considered garbage even though it isn't something with sharp edges like glass bottles or metal cans that could hurt someone if they stepped on them (hazardous). \n More Info:  <a href=\"https://garbagefix.com/types-of-garbage/\">Visit Google</a>",
+         "Types of Waste\n\nLiquid Waste. Liquid waste includes dirty water, wash water, organic liquids, waste detergents and sometimes rainwater.\nSolid Rubbish. Solid rubbish includes a large variety of items that may be found in households or commercial locations.\nOrganic Waste.\nRecyclable Rubbish.\nHazardous Waste. \n More Info:  <a href=\"https://sage-advices.com/what-are-the-different-types-of-garbage/\">Visit Google</a>"],
+         "context": [""]
+        },
+        {"tag": "advices",
+         "patterns": ["Advices for recycling garbage", "How to recycle and proper disposal of non-biodegradable wastes?", "List of advice to dispose garbage properly"],
+         "responses": ["Turning biodegradable waste such as food scraps and yard trimmings into compost or recycling them through your local yard waste collection facility, eliminates a large portion of any household or business&rsquo;s waste stream. However, the bulk of waste does not biodegrade quickly or ever. By thinking ahead, you can reduce your waste generation and reuse packaging rather than throwing it away. \n More Info:  <a href=\"https://oureverydaylife.com/effective-ways-of-recycling-reducing-non-biodegradable-waste-5148880.html\">Visit Google</a>",
+         "Non-biodegradable medical wastes are those wastes that can be decomposed through biological processes. Just like household items, non-biodegradable medical waste comprises plastic, wrappings, paper, and other man-made products. \n More Info:  <a href=\"https://www.met-bio.com/post/how-to-dispose-of-non-biodegradable-medical-waste/\">Visit Google</a>"],
+         "context": [""]
+        }
+   ]
+}
